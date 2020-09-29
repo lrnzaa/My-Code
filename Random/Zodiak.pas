@@ -4,6 +4,7 @@ var
 	x,y : integer;
 
 begin
+//x = month, y = date
 	readln(x,y);
 
 	case y of
