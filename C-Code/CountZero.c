@@ -2,7 +2,7 @@
 
 int main()
 {
-	int T, t1, N, count;
+	int T, t1, N, count, i;
 	char angka[100001];
 	
 	scanf("%d", &T);
@@ -13,7 +13,7 @@ int main()
 		
 		count = 0;
 		
-		for(int i = 0; angka[i] != '\0'; i++)
+		for(i = 0; angka[i] != '\0'; i++)
 		{
 			if(angka[i] == '0')
 			{
